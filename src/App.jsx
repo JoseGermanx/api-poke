@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "../src/components/Navigations/Navbar";
-import Home from "./components/pages/Home";
-import Poke from "./components/pages/Poke";
+import Navbar from "./components/Navigations/Navbar";
+import Home from "./components/Pages/Home";
+import Poke from "./components/Pages/Poke";
 
 function App() {
   return (
