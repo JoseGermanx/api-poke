@@ -7,7 +7,7 @@ import Footer from "../Footer/Footer";
 const Poke = () => {
   const [ url, setUrl ] = useState(POKE_URL);
   const state = Data(url);
-  const { loading, data } = state; 
+  const { loading, data } = state;
 
   return (
     <div>
