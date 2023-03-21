@@ -1,4 +1,4 @@
-import Data from "../../Data/data";
+import Data from "../../data";
 
 const CardPoke = ({ url }) => {
   const state = Data(url);

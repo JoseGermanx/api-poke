@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { POKE_URL } from "../../../config";
-import Data from "../../Data/data";
+import Data from "../../data";
 import Card from "../Cards/Card";
 import Footer from "../Footer/Footer";
 
