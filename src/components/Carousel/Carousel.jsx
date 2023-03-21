@@ -5,7 +5,7 @@ import imagePokemon03 from "../../assets/images/pokemon_03.jpg";
 const Carousel = () => {
   return (
     <div>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" width={500} height={600}>
+        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src={imagePokemon01} className="d-block w-100" alt="..." />
